@@ -19,7 +19,7 @@ div h1 {
 body {
 
     font-family: oswald, Verdana, sans-serif;
-    background-image: url(../imagens/)
+    background-image: url(../imagens/fundo-branco-com-fundo-branco-e-fundo-azul-claro_689904-124050.avif)
  }
  
  
@@ -49,149 +49,70 @@ body {
  
  }
  
- #container {
- 
-    background-color: rgba(135, 207, 235, 0.603);
-    width: 80%;
-    max-width: 1000px;
-    min-width: 500px;
-    
- 
- 
- 
-    margin: auto;
-    box-shadow: black 0 0 5px;
-    padding: 16px;
-    border-radius: 8px;
- }
- 
  h2 {
     font-size: 20p;
-    border-bottom: solid 5px;
-    border-left: dotted 5px;
+    border-bottom: solid 4px;
+    border-left: dotted 6px;
     padding-left: 10px;
+
+    background: linear-gradient(to right, white,black, white)
  
   
  }
  
- h3,
- p,
- figcaption {
-    font-family: 'Times New Roman', Times, serif;
- }
+ 
  
  h3 {
     border-radius: 10px;
     padding: 10px;
  
- 
-    background: linear-gradient(to right, lightblue, blue, gold);
- 
- }
- 
- .destaque {
-    background-color: black;
-    padding: 3px;
-    color: white;
-    border-radius: 4px;
- }
- 
- 
- /* reset/limpeza */
- figure {
-    margin: 0;
-    text-align: center;
+    background: linear-gradient(to right, white,black, white)
  
  }
- 
- img {
-    max-width: 100%;
- }
- 
- /* seletor descendente */
- a {
-    color: red;
- }
- 
- ul {
-    padding: 0;
- }
- 
- li {
-    list-style-image: url(../imagens/fundo03.gif);
-    line-height: 32px;
- }
- 
 
- li::marker {
-    content: "";
-    font-size: 16px;
+ h4 {
+    background: linear-gradient(to right, white,black, white)
  }
- 
- 
- 
- nav {
-    text-align: center;
+
+ h5 {
+    background: linear-gradient(to right, white,black, white)
  }
- 
- 
- nav a {
-    text-decoration: none;
-    font-weight: bold;
-    color: darkblue;
-    background-color: yellow;
-    width: 50%;
-    display: inline-block;
-    padding: 10px;
-    box-sizing: border-box;
- 
- 
+
+ .container{
+
+    background-color: aqua;
+
  }
+
+ .flex-container {
+    display: flex;
+    grid-column:auto;
+  }
  
- nav a:first-child {
- 
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
- 
- }
- 
- 
- nav a:last-child {
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
- }
  
  
  
 
  
- nav a:hover, nav a:focus {
  
-    background-color: darkblue;
-    color: white;
- }
- 
- figure img{ 
-    filter: grayscale(); 
- transition: 0.5s;
- 
- transform: scale(80%);
 
- }
- 
- figure img:hover {
- 
-  
-    filter: none ;
-    transform: scale(100%) rotate(360deg);
+
  
  
- }
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
  
 
  
  @keyframes Giuseppe_costa_strapaicci{
-    /* como começa: */
+   
     from{transform: translatey(-100px);
     opacity: 0; }
  
