@@ -50,39 +50,28 @@ body {
  }
  
  h2 {
-    font-size: 20p;
-    border-bottom: solid 4px;
-    border-left: dotted 6px;
-    padding-left: 10px;
-
-    background: linear-gradient(to right, white,black, white)
- 
-  
+    background: linear-gradient(to right, white,blue, white)
  }
  
  
  
  h3 {
-    border-radius: 10px;
-    padding: 10px;
+   
+    
  
-    background: linear-gradient(to right, white,black, white)
+    background: linear-gradient(to right, white,blue, white)
  
  }
 
  h4 {
-    background: linear-gradient(to right, white,black, white)
+    background: linear-gradient(to right, white,blue, white)
  }
 
  h5 {
-    background: linear-gradient(to right, white,black, white)
+    background: linear-gradient(to right, white,blue, white)
  }
 
- .container{
 
-    background-color: aqua;
-
- }
 
  .flex-container {
     display: flex;
